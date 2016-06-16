@@ -112,4 +112,4 @@ Route::get('twitter/logout', ['as' => 'twitter.logout', function(){
 }]);
 
 Route::get('rna/train', 'FannController@train');
-Route::get('rna/run', 'FannController@run');
+Route::get('rna/run/{filename}', 'FannController@run');
